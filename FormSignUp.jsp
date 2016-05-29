@@ -1,9 +1,3 @@
-<%-- 
-    Document   : FormSignUp
-    Created on : 15-May-2016, 19:10:54
-    Author     : Natalia Ari Chrismiyati
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -11,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Form Sign Up</title>
     </head>
-    <body>
+    <body background="B.JPG">
         <div>
             <center>
                 <img alt='logo' src='LOGOUNIVERSITASSANATADHARMA2.png'>
@@ -49,7 +43,7 @@
                     <td width="10">:</td>
                     <td colspan="4"><input type="text" name="imil" size="63"></td>
                 </tr>
-                <tr>
+                <tr>    
                     <td width="75">Pembimbing</td>
                     <td width="10">:</td>
                     <td colspan="4"><input type="text" name="dosen" size="63"></td>
