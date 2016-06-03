@@ -1,26 +1,24 @@
 <%-- 
     Document   : Home
-    Created on : 18-May-2016, 15:33:40
-    Author     : VIVI SISKA
+    Created on : 26-May-2016, 17:53:20
+    Author     : Vivi Siska
 --%>
 
 <%@page import="bean.MataKuliah"%>
-<%@page import="bean.Mahasiswa"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="bean.DataBaseConnection"%>
 <%@page import="java.sql.*" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%  bean.DataBaseConnection conn = new bean.DataBaseConnection();%>
 <%  bean.Query q = new bean.Query();%>
-<%! Statement statement;%>
-<%! ResultSet result;%>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Sanata Dharma Yogtakarta</title>
     </head>
-    <body>
+    <body background = "BGTransparan.JPG">
         <table>
             <tr>
                 <td><a href="FirstServlet"><img src="4.png"></a></td>
@@ -28,6 +26,8 @@
                 <td><a href="FormSignIn.jsp"><img src="login12.jpg"></a></td>
                 <td></td><td></td><td></td>
                 <td><a href="FormSignUp.jsp"><img src="homered.PNG"></a></td>
+                <td></td><td></td><td></td>
+                <td><a href="FormAdmin.jsp">Admin</a></td>
             </tr>
         </table>
         <hr>
@@ -35,7 +35,7 @@
         <table border="1px solid black">
             <h2 align="center">Daftar Matakuliah</h2>
             <tr bgcolor = "white">
-                <td align="center">Kode  Matakuliah</td>
+                <td align="center">Kode Matakuliah</td>
                 <td align="center">Nama Matakuliah</td>
                 <td align="center">Waktu Kuliah</td>
                 <td align="center">SKS</td>
@@ -88,3 +88,4 @@
     </center>
 </body>
 </html>
+
