@@ -1,4 +1,8 @@
-
+<%-- 		 +
+ -    Document   : FormSignUp		
+ -    Created on : May 15, 2016, 19:48:09 PM		
+ -    Author     : Natalia 		
+ --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
