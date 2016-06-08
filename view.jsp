@@ -31,9 +31,6 @@
     </head>
     <body background="Images/BGTransparan.JPG">
     <center>
-        <%
-            String viewnim = (String) session.getAttribute("nimDD");
-        %>
         <form action="detailSession" method="post">
             <div id="section">
                 <table border="1px solid black">
