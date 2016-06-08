@@ -48,9 +48,8 @@
                     <% String query = "select distinct nim from krs order by nim";
                         statement = conn.getConnection().createStatement();
                         result = statement.executeQuery(query);
-
-                        while (result.next()) {
-                            int a = 0;
+                        int a = 0;
+                        while (result.next()) {                            
                             a++;
                             if (a % 2 == 0) {
 
